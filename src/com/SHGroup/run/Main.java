@@ -11,6 +11,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);							//입력을 받기 위한 스캐너
 		SStack s = new SStack(10);										//스택 객체 선언
 		for(int i; ;){
+			System.out.println("숫자를 입력하세요 : ");
 			if((i = sc.nextInt()) == 8888) break;						//i를 입력받고 만약 8888이면 종료
 			else if(i == 9999){											//i가 9999이면 pop
 				try{													//예외 처리를 위한 try
